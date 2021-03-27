@@ -13,4 +13,7 @@ Task 1 (OOP):
 	7. Files can be used to store initialization parameters.
 
 	Assighnment number - 3:
-	Household appliances. Determine the hierarchy of electrical appliances. Plug some into a socket. Calculate power consumption. Sort the appliances based on power. Find a device in the apartment that matches the specified range of parameters.
+	Household appliances. Determine the hierarchy of electrical appliances.
+	Plug some into a socket. Calculate power consumption. 
+	Sort the appliances based on power. 
+	Find a device in the apartment that matches the specified range of parameters.
