@@ -1,0 +1,2 @@
+CoffeeMaker;20;false;34500;A;3;Philips;TYPE_B;2017.08.01;1800;250
+CoffeeMaker;10;false;34500;A;3;Philips;TYPE_B;2017.08.01;1800;250
