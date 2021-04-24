@@ -1,6 +1,6 @@
 [submodule "oop-task"]
 	path = oop-task
 	url = https://github.com/Phuffick/epam-training.git
-[submodule "strings-task/strings-task"]
-	path = strings-task/strings-task
+[submodule "strings-task"]
+	path = strings-task
 	url = https://github.com/Phuffick/epam-training.git
