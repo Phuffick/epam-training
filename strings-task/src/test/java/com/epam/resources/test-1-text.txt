@@ -1,0 +1,11 @@
+Good +375(29)623-32-11.
+Chapter 1.
+
+INTRODUCTION TO OOP AND CLASSES.
+
+Every fool can write a program that computer can understand. Good programmer writes a code that human can understand.
+
+Martin Fowler (example.post.intext@mail.net).
+(+375(29)623-32-14 example of telephone number).
+
+Basic concepts of OOP.
