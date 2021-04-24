@@ -17,3 +17,12 @@ Task 1 (OOP):
 	Plug some into a socket. Calculate power consumption. 
 	Sort the appliances based on power. 
 	Find a device in the apartment that matches the specified range of parameters.
+
+Task 2 (strings):
+	Create a program for processing a programming book using classes (if necessary) to represent:
+	symbols, words, sentences, punctuations, etc.
+	In all tasks with the formation of text, replace tabs and execute spaces with one space.
+	The program should treat the email address and phone numbers in the +XXX(XX)XXX-XX-XX format as separate words.
+
+	Assighnment number - 3:
+	Find a word in the first sentence that is never been used in any others sentences.
