@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tariffs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/tariffs" xsi:schemaLocation="http://www.example.org/tariffs tariffs.xsd">
+    <tariff id="x0001">
+        <type>Безлимитище+</type>
+        <operator>MTC</operator>
+        <payroll>25.48</payroll>
+        <callPrices>
+            <inNetworkCalls>0.1</inNetworkCalls>
+            <outNetworkCalls>0.2</outNetworkCalls>
+            <landlinesCalls>0.2</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.2</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)432-23-23</favoriteNumber>
+            <favoriteNumber>+375(29)543-27-45</favoriteNumber>
+            <tariffication>TWELVE_SECONDS_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+    <tariff id="x0002">
+        <type>Супер max 50</type>
+        <operator>MTC</operator>
+        <payroll>36.4</payroll>
+        <callPrices>
+            <inNetworkCalls>0.2</inNetworkCalls>
+            <outNetworkCalls>0.4</outNetworkCalls>
+            <landlinesCalls>0.2</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.2</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)432-23-23</favoriteNumber>
+            <favoriteNumber>+375(29)543-27-45</favoriteNumber>
+            <tariffication>TWELVE_SECONDS_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+    <tariff id="x0003">
+        <type>Комфорт М</type>
+        <operator>А1</operator>
+        <payroll>13.9</payroll>
+        <callPrices>
+            <inNetworkCalls>0.4</inNetworkCalls>
+            <outNetworkCalls>0.5</outNetworkCalls>
+            <landlinesCalls>0.7</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.2</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)432-44-23</favoriteNumber>
+            <favoriteNumber>+375(29)543-27-45</favoriteNumber>
+            <tariffication>TWELVE_SECONDS_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+    <tariff id="x0004">
+        <type>Безлимит стандарт</type>
+        <operator>life:)</operator>
+        <payroll>10.5</payroll>
+        <callPrices>
+            <inNetworkCalls>0.1</inNetworkCalls>
+            <outNetworkCalls>0.3</outNetworkCalls>
+            <landlinesCalls>0.1</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.1</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)432-25-23</favoriteNumber>
+            <favoriteNumber>+375(29)543-25-45</favoriteNumber>
+            <tariffication>TWELVE_SECONDS_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+    <tariff id="x0005">
+        <type>Семейный 3</type>
+        <operator>Белтелеком</operator>
+        <payroll>24.9</payroll>
+        <callPrices>
+            <inNetworkCalls>0.2</inNetworkCalls>
+            <outNetworkCalls>0.4</outNetworkCalls>
+            <landlinesCalls>0.2</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.2</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)312-51-43</favoriteNumber>
+            <favoriteNumber>+375(29)523-13-75</favoriteNumber>
+            <tariffication>ONE_MINUTE_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+</tariffs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tariffs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/tariffs">
+    <tariff id="x0001">
+        <type>F</type>
+        <operator>MTC</operator>
+        <payroll>25/48</payroll>
+        <callPrices>
+            <inNetworkCalls>0.1</inNetworkCalls>
+            <outNetworkCalls>0.2</outNetworkCalls>
+            <landlinesCalls>0.2</landlinesCalls>
+        </callPrices>
+        <smsPrice>0.2</smsPrice>
+        <parameters>
+            <favoriteNumber>+375(29)432-23-23</favoriteNumber>
+            <favoriteNumber>+375(29)543-27-45</favoriteNumber>
+            <tariffication>TWELVE_SECONDS_TARIFFICATION</tariffication>
+            <rateForTariffConnection>0</rateForTariffConnection>
+        </parameters>
+    </tariff>
+</tariffs>

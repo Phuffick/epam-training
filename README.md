@@ -26,3 +26,19 @@ Task 2 (strings):
 
 	Assighnment number - 3:
 	Find a word in the first sentence that is never been used in any others sentences.
+
+Task 3 (XML):
+	1. Develop an XML document for your assighnment, describe it using XSD. Create an XML file corresponding to the developed XSD schema.
+	2. Developing XSD use simple and complex types, templates and limit values, it is obligatory using attributes and ID type.
+	3. Create a Java class (classes) according to the corresponding developed schema.
+	4. Create a Java application to parse an XML document and initialize a collection of information objects from an XML file. For parsing use SAX, DOM or StAX parser. Use comparator interface to sort objects.
+	5. Check the correctness and validity of an XML document using XSD.
+
+	Assighnment number - 3: 
+	Tariffs of mobile companies. Mobile companies tariffs can have the following structure:
+	-Name – tariff name.
+	-Operator name – the name of the mobile operator to which the tariff belongs.
+	-Payroll – mounth paytoll (0 – n BYN).
+	-Call prices (should be a few) – calls prices: innet (0 – n BYN/min), outnet (0 – n BYN/min), landline (0 – n BYN/min).
+	-SMS price – sms price (0 – n BYN).
+	-Parameters (hould be a few) – favorite cell number (0 – n), tariffication (12-second, 1-minute), connection fee (0 – n BYN).

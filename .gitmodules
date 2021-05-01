@@ -4,3 +4,6 @@
 [submodule "strings-task"]
 	path = strings-task
 	url = https://github.com/Phuffick/epam-training.git
+[submodule "xml-task"]
+	path = xml-task
+	url = https://github.com/Phuffick/epam-training.git

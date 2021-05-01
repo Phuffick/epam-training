@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/tariffs"
+        xmlns:tns="http://www.example.org/tariffs" elementFormDefault="qualified">
+
+    <simpleType name="price">
+        <restriction base="string">
+            <pattern value="\d+([.]?\d)*"/>
+        </restriction>
+    </simpleType>
+
+    <element name="tariffs">
+        <complexType>
+            <sequence>
+                <element name="tariff" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="type" type="string"/>
+                            <element name="operator" type="string"/>
+                            <element name="payroll" type="tns:price"/>
+                            <element name="callPrices">
+                                <complexType>
+                                    <sequence>
+                                        <element name="inNetworkCalls" type="tns:price"/>
+                                        <element name="outNetworkCalls" type="tns:price"/>
+                                        <element name="landlinesCalls" type="tns:price"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                            <element name="smsPrice" type="tns:price"/>
+                            <element name="parameters">
+                                <complexType>
+                                    <sequence>
+                                        <element name="favoriteNumber" minOccurs="0" maxOccurs="unbounded">
+                                            <simpleType>
+                                                <restriction base="string">
+                                                    <pattern value="\+375\(\d{2}\)\d{3}-\d{2}-\d{2}"/>
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
+                                        <element name="tariffication" minOccurs="0">
+                                            <simpleType>
+                                                <restriction base="string">
+                                                    <enumeration value="TWELVE_SECONDS_TARIFFICATION" />
+                                                    <enumeration value="ONE_MINUTE_TARIFFICATION" />
+                                                </restriction>
+                                            </simpleType>
+                                        </element>
+                                        <element name="rateForTariffConnection" minOccurs="0" type="tns:price"/>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                        <attribute name="id" type="ID" use="required"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
