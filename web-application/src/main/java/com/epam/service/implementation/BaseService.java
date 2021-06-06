@@ -1,0 +1,16 @@
+package com.epam.service.implementation;
+
+import com.epam.service.Transaction;
+
+public class BaseService {
+
+    private Transaction transaction;
+
+    public Transaction getTransaction() {
+        return transaction;
+    }
+
+    public void setTransaction(Transaction transaction) {
+        this.transaction = transaction;
+    }
+}
