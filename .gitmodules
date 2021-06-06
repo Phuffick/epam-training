@@ -7,3 +7,6 @@
 [submodule "xml-task"]
 	path = xml-task
 	url = https://github.com/Phuffick/epam-training.git
+[submodule "web-application"]
+	path = web-application
+	url = https://github.com/Phuffick/epam-training.git
